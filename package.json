@@ -1,0 +1,20 @@
+{
+  "name": "natura-router",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">=23.6"
+  },
+  "scripts": {
+    "route": "node src/main.ts > routes.txt",
+    "route:nv-off": "node src/main.ts --disable WH-NV > routes-nv-off.txt",
+    "test": "node --test test/router.test.ts",
+    "typecheck": "tsc",
+    "dev": "vite"
+  },
+  "devDependencies": {
+    "@types/node": "^26.6.6",
+    "typescript": "^7.0.2",
+    "vite": "^8.3.5"
+  }
+}

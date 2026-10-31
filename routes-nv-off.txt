@@ -1,0 +1,26 @@
+#2031  WH-NJ    zone 1
+#2032  WH-GA    zone 1
+#2033  WH-NJ    zone 3  [ZIP was the number 2134; read as 02134]
+#2034  WH-GA    zone 5 (tied with WH-NJ; cover 10.00 vs 0.10 days)
+#2035  WH-GA    zone 4
+#2036  WH-GA    zone 7
+#2037  PARTNER  rule 1: ships outside the US (CA)
+#2038  WH-NJ    zone 8 (tied with WH-GA; cover 9.95 vs 0.10 days)
+#2039  WH-NJ    zone 1  [ZIP+4 07030-1834 read as 07030]
+#2040  WH-GA    zone 5 (WH-NJ zone 2 short NW-MAG-90)  [bundle NW-BNDL-ESS x1 expanded to NW-VITD-60 x1 + NW-MAG-90 x1]
+#2041  WH-GA    zone 7  [edited after 18 min: added NW-MULTI-30 x1]
+#2042  PARTNER  rule 2: ZIP prefix 968 not in zones.json
+#2043  WH-GA    zone 8
+#2044  WH-GA    zone 6
+#2045  WH-GA    zone 3  [SKU "nw-mag-90" read as NW-MAG-90]
+#2046  PARTNER  rule 2: no usable ZIP
+#2047  WH-GA    zone 4
+#2048  WH-NJ    zone 5 (tied with WH-GA; cover 9.93 vs 0.03 days)
+#2049  WH-GA    zone 4
+#2050  WH-NJ    zone 5 (WH-GA zone 1 short NW-VITD-60)
+#2051  WH-GA    zone 7
+#2052  WH-GA    zone 8
+#2053  WH-NJ    zone 2
+#2054  WH-GA    zone 4
+#2055  WH-GA    zone 8 (tied with WH-NJ; cover 11.76 vs 3.97 days)
+#2056  PARTNER  rule 7: no enabled warehouse has stock for the whole order  [bundle NW-BNDL-ESS x1 expanded to NW-VITD-60 x1 + NW-MAG-90 x1]

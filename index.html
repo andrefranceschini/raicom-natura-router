@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Routing Inspector</title>
+  </head>
+  <body>
+    <header class="topbar">
+      <h1>Natura Wellness · order routing inspector</h1>
+      <p>Pick a scenario, then select an order to see why it ships from where it does and how stock changed.</p>
+    </header>
+    <section class="toolbar" id="toolbar" aria-label="Scenario settings"></section>
+    <section class="summary" id="summary" aria-live="polite"></section>
+    <main class="panes">
+      <section class="list" aria-label="Orders">
+        <table id="orders"></table>
+      </section>
+      <aside class="detail" id="detail" aria-label="Selected order"></aside>
+    </main>
+    <script type="module" src="/ui/main.ts"></script>
+  </body>
+</html>
