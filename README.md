@@ -98,4 +98,6 @@ PART-B.md          Part B answers
 
 ## AI use
 
-Built with Claude Code. I directed the decisions (which data fixes to make, what not to change, option 2 for Question 2) and had every result checked against the source files and an independent model in the tests rather than trusted. The conversation link is included with the submission.
+Built with Claude Code. I directed the decisions (which data fixes to make, what not to change, option 2 for Question 2) and had every result checked against the source files and an independent model in the tests rather than trusted.
+
+The full conversation is in [`ai-conversation/transcript.md`](ai-conversation/transcript.md), generated from the local session log by [`convert-transcript.mjs`](ai-conversation/convert-transcript.mjs). It keeps every message, tool call and tool result as they happened, mistakes included. The only changes are a few private details (names of my private repositories and an unrelated file name), each marked `[REDACTED: …]`. The file's header explains what it doesn't contain and why.
